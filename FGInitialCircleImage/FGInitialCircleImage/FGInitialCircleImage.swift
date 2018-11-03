@@ -8,9 +8,9 @@
 
 import UIKit
 
-class FGInitialCircleImage: NSObject {
+class FGInitialCircleImage {
     
-    class func circleImage(firstName: NSString, lastName: NSString, size: CGFloat, borderWidth: CGFloat, borderColor: UIColor, backgroundColor: UIColor, textColor: UIColor) -> UIImage? {
+    static func circleImage(firstName: NSString, lastName: NSString, size: CGFloat, borderWidth: CGFloat, borderColor: UIColor, backgroundColor: UIColor, textColor: UIColor) -> UIImage? {
         let imageRect: CGRect = CGRect(x: 0, y: 0, width: size, height: size);
         UIGraphicsBeginImageContextWithOptions(imageRect.size, false, UIScreen.main.scale)
         

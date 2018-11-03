@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        initialIcon.image = FGInitialCircleImage.circleImage(firstName: "John", lastName: "Appleseed", size: initialIcon.frame.size.width, borderWidth: 5, borderColor: UIColor.green, backgroundColor: UIColor.blue, textColor: UIColor.white);
+        initialIcon.image = FGInitialCircleImage.circleImage(firstName: "John", lastName: "Appleseed", size: initialIcon.frame.size.width, borderWidth: 5, borderColor: UIColor.green, backgroundColor: UIColor.blue, textColor: UIColor.white)
     }
 }
 
